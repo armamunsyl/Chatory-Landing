@@ -45,7 +45,6 @@ export default function Home() {
             <div className="hero-copy">
               <div className="eyebrow-row">
                 <div className="eyebrow-pill"><Sparkles size={15} /> Storage & conversation tools</div>
-                <span className="neonbytes-line">A product of <strong>NeonBytes</strong></span>
               </div>
               <h1>Your ChatGPT workflow, <span>cleaner and easier.</span></h1>
               <p>

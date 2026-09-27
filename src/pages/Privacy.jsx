@@ -54,8 +54,8 @@ const sections = [
     body: <p>Chatory’s use of information is limited to providing and improving its disclosed user-facing purpose. Chatory does not use or transfer user data for personalized advertising, credit decisions, data brokerage, or unrelated purposes.</p>,
   },
   {
-    title: '10. Product ownership and independence',
-    body: <p>Chatory is developed and maintained by NeonBytes. Chatory and NeonBytes are independent third-party products and are not affiliated with, endorsed by, or sponsored by OpenAI.</p>,
+    title: '10. Product independence',
+    body: <p>Chatory is an independent third-party browser extension and is not affiliated with, endorsed by, or sponsored by OpenAI.</p>,
   },
   {
     title: '11. Contact',
@@ -73,7 +73,6 @@ export default function Privacy() {
             <div className="privacy-aside-card">
               <img src="/assets/chatory-symbol.png" alt="" />
               <span>Chatory Privacy</span>
-              <small>A product of {siteConfig.company}</small>
               <small>Effective {siteConfig.effectiveDate}</small>
               <div className="privacy-summary">
                 <strong>At a glance</strong>
@@ -86,7 +85,7 @@ export default function Privacy() {
           <article className="privacy-document">
             <span className="section-kicker">Legal & privacy</span>
             <h1>Privacy Policy</h1>
-            <p className="privacy-lead">Chatory is a NeonBytes product and browser extension that helps users export ChatGPT conversations as PDFs and manage files in their ChatGPT Library.</p>
+            <p className="privacy-lead">Chatory is a browser extension that helps users export ChatGPT conversations as PDFs and manage files in their ChatGPT Library.</p>
             <div className="privacy-notice">
               <strong>Plain-language summary</strong>
               <p>Chatory works inside your browser. The current version does not send your ChatGPT conversations, Library files, or ChatGPT session credentials to a Chatory developer backend.</p>

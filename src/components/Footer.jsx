@@ -9,7 +9,6 @@ export default function Footer() {
         <div>
           <Brand compact />
           <p className="footer-note">Clean exports. A lighter library. A simpler ChatGPT workflow.</p>
-          <p className="footer-parent">A product of <strong>{siteConfig.company}</strong></p>
         </div>
         <div className="footer-links">
           <Link to="/privacy">Privacy Policy</Link>
@@ -17,7 +16,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="shell legal-line">
-        © 2026 {siteConfig.company}. Chatory is a product of {siteConfig.company}. Chatory is an independent third-party browser extension and is not affiliated with, endorsed by, or sponsored by OpenAI.
+        © 2026 Chatory. Chatory is an independent third-party browser extension and is not affiliated with, endorsed by, or sponsored by OpenAI.
       </div>
     </footer>
   )

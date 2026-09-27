@@ -1,6 +1,6 @@
 # Chatory Landing Page
 
-Minimal responsive landing page + public Privacy Policy for Chatory, a product of NeonBytes.
+Minimal responsive landing page + public Privacy Policy for Chatory.
 
 ## Stack
 
@@ -47,6 +47,6 @@ A `vercel.json` rewrite is included so React Router routes work when deployed to
 
 The Privacy Policy currently directs users to the public support contact on Chatory's Chrome Web Store listing. If you later create a dedicated support email, update the Contact section in `src/pages/Privacy.jsx`.
 
-## Brand relationship
+## Brand
 
-Chatory is presented as an independent product brand with subtle parent-brand attribution: **A product of NeonBytes**. The attribution appears in the header, hero, footer, metadata, and Privacy Policy without replacing Chatory's own visual identity.
+Chatory is presented as an independent product brand across the landing page, metadata, footer, and Privacy Policy.

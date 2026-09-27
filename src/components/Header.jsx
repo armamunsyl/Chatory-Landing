@@ -13,7 +13,6 @@ export default function Header() {
       <div className="shell nav-inner">
         <div className="header-brand-group">
           <Brand compact />
-          <span className="parent-brand-badge">A product of <strong>{siteConfig.company}</strong></span>
         </div>
         <nav className="nav-links" aria-label="Main navigation">
           {!isPrivacy && <a href="#features">Features</a>}
