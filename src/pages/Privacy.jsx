@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import PageMeta from '../components/PageMeta'
 import { siteConfig } from '../config/site'
 
 const sections = [
@@ -66,6 +67,10 @@ const sections = [
 export default function Privacy() {
   return (
     <div className="page-shell">
+      <PageMeta
+        title="Chatory Privacy Policy"
+        description="Read the Chatory Privacy Policy for PDF Export, ChatGPT Library cleanup, local processing, storage, permissions, and data use."
+      />
       <Header />
       <main className="privacy-page">
         <div className="shell privacy-layout">

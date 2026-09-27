@@ -11,6 +11,7 @@ import {
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import StoreButton from '../components/StoreButton'
+import PageMeta from '../components/PageMeta'
 
 const featureCards = [
   {
@@ -36,6 +37,10 @@ const steps = [
 export default function Home() {
   return (
     <div className="page-shell">
+      <PageMeta
+        title="Chatory — Toolkit for ChatGPT"
+        description="Chatory is a utility toolkit for ChatGPT that exports conversations as polished PDFs and helps you clean your ChatGPT Library."
+      />
       <Header />
       <main>
         <section className="hero">
